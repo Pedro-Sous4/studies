@@ -1,0 +1,25 @@
+const area = prompt("Qual área de estudo você deseja seguir? Digite 1 para Front-End e 2 para Back-End.");
+if(area == 1){
+    let front = prompt("Você prefere aprender React ou Vue?");    
+    alert(`Legal, ${front} tem muito mercado de trabalho`);
+}
+else if (area == 2) {
+    let back = prompt("Você prefere aprender C# ou Java?");
+    alert(`Legal, ${back} tem muito mercado de trabalho`);
+}
+
+const escolha = prompt("Deseja seguir se especializando na área escolhida (Digite esp) ou seguir se desenvolvendo para se tornar Fullstack (Digite full)?");
+
+if(escolha == "esp"){
+    alert("Boa escolha, siga focando em sua área e terá muito sucesso!!");
+    }
+    else if (escolha == "full") {
+    alert("Bons estudos, siga perseverante!");
+  
+}
+let lista = "ok";
+while(lista == "ok"){
+    let curso = prompt("Deseja aprender alguma outra tecnologia ou linguagem?")
+    alert(`A linguagem ${curso} é uma tecnologia de muita aplicação, siga aprendendo.`);
+    lista = prompt("Deseja aprender alguma outra tecnologia ou linguagem?SIM - digite OK e Não - digite SAIR");
+}
