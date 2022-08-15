@@ -6,7 +6,6 @@ const resp1 = `"Muito bom! Continue estudando e você terá muito sucesso."`;
 const resp2 = `"Ahh que pena... Já tentou aprender outras linguagens?"`;
 alert(msg);
 
-
 const resposta = prompt("Você gosta de estudar ${lcode}? Responda com o número 1 para SIM ou 2 para NÃO.");
 
 
